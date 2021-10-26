@@ -1,0 +1,206 @@
+
+* {
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+#chicken {
+    float: right;
+    width: 48%;
+}
+
+#beef {
+    float: left;
+    width: 48%;
+}
+
+#sushi {
+    /* float: left; */
+    clear: both;
+    clear: left;
+    width: 100%;
+}
+.menu {
+    width: 900px;
+   
+    margin: 33px auto;
+}
+
+.item {
+  
+    border: 3px solid black;
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background: grey;
+}
+
+p, h3 {
+   
+   text-align: left;
+  
+
+}
+
+h1
+{
+   margin: 23px auto;
+   width: 455px;
+}
+#chickenpara{
+    background-color: rgb(9, 50, 76);
+    width:80px;
+  position: relative;
+  left:344px;
+  bottom:31px;
+
+}
+#beefpara{
+    background-color: rgb(181, 71, 90);
+    width:80px;
+  position: relative;
+  left:344px;
+  bottom:31px;
+  
+}
+#sushipara{
+    background-color: rgb(7, 73, 17);
+    width:80px;
+  position: relative;
+  left:812px;
+  bottom:32px;
+
+}
+
+
+
+}
+@media (max-width:767px){
+.item {
+    border: 3px solid black;
+    margin:12px 20px;
+    padding: 12px 3px;
+    background: grey;
+    
+    width:400px
+}
+
+
+
+h1
+{
+   margin: 23px auto;
+   width: 455px;
+}
+h3{
+    background-color: rgb(181, 71, 90);
+    width:80px;
+  
+}
+#chickenpara{
+    background-color: rgb(9, 50, 76);
+    width:80px;
+  position: relative;
+  left:312px;
+  bottom:31px;
+
+}
+#beefpara{
+    background-color: rgb(181, 71, 90);
+    width:80px;
+  position: relative;
+  left:312px;
+  bottom:31px;
+  
+}
+#sushipara{
+    background-color: rgb(7, 73, 17);
+    width:80px;
+  position: relative;
+  left:312px;
+  bottom:31px;
+
+}
+
+
+
+}
+@media (min-width:992px) {
+#chickenpara{
+    background-color: rgb(9, 50, 76);
+    width:80px;
+  position: relative;
+  left:312px;
+  bottom:31px;
+
+}
+#beefpara{
+    background-color: rgb(181, 71, 90);
+    width:80px;
+  position: relative;
+  left:312px;
+  bottom:31px;
+  
+}
+#sushipara{
+    background-color: rgb(7, 73, 17);
+    width:80px;
+  position: relative;
+  left:312px;
+  bottom:31px;
+
+}
+
+
+.item {
+    border: 3px solid black;
+    margin:12px 20px;
+    padding: 12px 3px;
+    background: grey;
+    float:left;
+    width:400px
+}
+
+
+
+h1
+{
+   margin: 23px auto;
+   width: 455px;
+}
+#chickenpara{
+    background-color: rgb(9, 50, 76);
+    width:80px;
+  position: relative;
+  left:312px;
+  bottom:31px;
+
+}
+#beefpara{
+    background-color: rgb(181, 71, 90);
+    width:80px;
+  position: relative;
+  left:312px;
+  bottom:31px;
+  
+}
+#sushipara{
+    background-color: rgb(7, 73, 17);
+    width:80px;
+  position: relative;
+  left:312px;
+  bottom:31px;
+
+}
+
+
+
+}
+
